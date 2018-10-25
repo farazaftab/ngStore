@@ -11,6 +11,7 @@
     "build:client-and-server-bundles": "ng build --prod && ng run ngStore:server:production",
     "build-server": "ng run ngStore:server:production",
     "compile:server": "tsc -p server.tsconfig.json",
+    "build:prod": "npm run build:client-and-server-bundles && npm run compile:server",
     "serve:ssr": "node dist/server"
   },
   "private": true,
