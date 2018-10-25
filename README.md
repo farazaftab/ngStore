@@ -1,1 +1,1 @@
-# ngStore
+# NgStore
