@@ -13,7 +13,7 @@ var path_1 = require("path");
 core_1.enableProdMode();
 // Express server
 var app = express();
-var PORT = process.env.PORT || 4000;
+var PORT = process.env.PORT || 5000;
 var DIST_FOLDER = path_1.join(process.cwd(), 'dist');
 // * NOTE :: leave this as require() since this file is built Dynamically from webpack
 var _a = require('./server/main'), AppServerModuleNgFactory = _a.AppServerModuleNgFactory, LAZY_MODULE_MAP = _a.LAZY_MODULE_MAP;

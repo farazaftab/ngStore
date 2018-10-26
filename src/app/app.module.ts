@@ -4,6 +4,8 @@ import {TransferHttpCacheModule} from '@nguniversal/common';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SharedModule } from './shared/shared.module';
+import { TemplatesModule } from './templates/templates.module';
 
 @NgModule({
   declarations: [
@@ -14,6 +16,8 @@ import { AppComponent } from './app.component';
     BrowserModule,
     AppRoutingModule,
     TransferHttpCacheModule,
+    SharedModule,
+    TemplatesModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
