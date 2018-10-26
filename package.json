@@ -12,7 +12,9 @@
     "build-server": "ng run ngStore:server:production",
     "compile:server": "tsc -p server.tsconfig.json",
     "build:prod": "npm run build:client-and-server-bundles && npm run compile:server",
-    "serve:ssr": "node dist/server"
+    "serve:ssr": "node dist/server",
+    "heroku-prebuild": "echo This runs before Heroku installs your dependencies.",
+    "heroku-postbuild": "build:prod"
   },
   "private": true,
   "dependencies": {
