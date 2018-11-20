@@ -1,5 +1,0 @@
-#dist
-jest
-node_modules
-.env
-yarn-error.log
